@@ -28,7 +28,9 @@ SECRET_KEY = '\x1b9X]Jy\xfd+k\xd3g\xe9\xee\xfd>\xc7'
 DEBUG = True
 # DEBUG = os.environ.get('DEBUG', "False").lower() == "true"
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = [
+'e-commerce-mass.onrender.com'
+]
 # ALLOWED_HOSTS = os.environ.get("ALLOWED_HOSTS").split(" ")
 
 
